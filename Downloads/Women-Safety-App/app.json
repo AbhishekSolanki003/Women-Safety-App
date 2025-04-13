@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "WomenSafetyApp",
+    "slug": "your-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/logoCircular.png",
+    "splash": {
+      "image": "./assets/logoCircular.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "permissions": [
+      "ACCESS_FINE_LOCATION",
+      "ACCESS_COARSE_LOCATION",
+      "RECORD_AUDIO"
+    ],
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.sumittech.womensafetyapp"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to send an emergency message.",
+        "NSMicrophoneUsageDescription": "We need microphone access for voice recognition."
+      }
+    },
+    "experiments": {
+      "newArchEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b27e8831-6222-4b9a-8450-a7bc628b6cf0"
+      }
+    }
+  }
+}
+
+
+
+
